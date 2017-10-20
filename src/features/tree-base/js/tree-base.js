@@ -1567,6 +1567,23 @@
 
   /**
    *  @ngdoc directive
+   *  @name ui.grid.treeBase.directive:uiGridTreeRowHeaderButtons
+   *  @element div
+   *
+   *  @description Provides the expand/collapse button on rows
+   */
+  module.directive('uiGridTreeBaseRowActionButtons', function () {
+      return {
+          restrict: 'E',
+          templateUrl: 'src/directives/templates/setupGridActions.html',
+          link: function () {
+             
+          }
+      };
+  });
+  
+  /**
+   *  @ngdoc directive
    *  @name ui.grid.treeBase.directive:uiGridTreeBaseExpandAllButtons
    *  @element div
    *

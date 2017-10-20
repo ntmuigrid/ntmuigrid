@@ -1,5 +1,6 @@
-<div
-  class="ui-grid-cell-contents">
-  <ui-grid-tree-base-row-header-buttons>
-  </ui-grid-tree-base-row-header-buttons>
-</div>
+<div class="ui-grid-cell-contents">
+	<ui-grid-tree-base-row-header-buttons ng-show="( ( grid.options.showTreeExpandNoChildren && row.treeLevel > -1 ) || ( row.treeNode.children && row.treeNode.children.length > 0 ) )" >
+	</ui-grid-tree-base-row-header-buttons>
+	<ui-grid-tree-base-row-action-buttons class="action-btns" ng-hide="( ( grid.options.showTreeExpandNoChildren && row.treeLevel > -1 ) || ( row.treeNode.children && row.treeNode.children.length > 0 ) )" >
+	</ui-grid-tree-base-row-action-buttons>
+</div>"
