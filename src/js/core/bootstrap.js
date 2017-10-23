@@ -21,7 +21,7 @@
             if (propertiesTree.length > 1) {
 
                 for (var i = 1; i < propertiesTree.length; i++) {
-                    nextProperty = translation[propertiesTree[i]]
+                    nextProperty = nextProperty[propertiesTree[i]]
                 }
 
                 return nextProperty;
