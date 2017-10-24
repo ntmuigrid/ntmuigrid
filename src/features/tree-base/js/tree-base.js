@@ -1575,7 +1575,7 @@
   module.directive('uiGridTreeBaseRowActionButtons', function () {
       return {
           restrict: 'E',
-          templateUrl: 'src/directives/templates/setupGridActions.html',
+          templateUrl: 'src/setup/templates/setupGridActions.html',
           link: function () {
              
           }
