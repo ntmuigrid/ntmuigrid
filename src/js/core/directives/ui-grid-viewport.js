@@ -150,6 +150,7 @@
               styles['transform'] = translateY;
               styles['-webkit-transform'] = translateY;
               styles['-ms-transform'] = translateY;
+			  styles['z-index'] = rowContainer.visibleRowCache.length - index;
             }
 
             if (colContainer.currentFirstColumn !== 0) {
