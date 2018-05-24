@@ -633,7 +633,7 @@ angular.module('ui.grid')
         width = colWidth > minWidth ? colWidth : minWidth;
 		
 		if (width < 50) {
-            width = 70;
+            width = 75;
         }
 		
         usedWidthSum = usedWidthSum + width;
