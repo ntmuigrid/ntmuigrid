@@ -611,7 +611,12 @@ angular.module('ui.grid')
         width = colWidth > minWidth ? colWidth : minWidth;
 		
         if (width < 50) {
-           width = 75;
+			if(column.name == "selectionRowHeaderCol"){
+				width = 30;
+			} else {
+				width = 75;
+			}
+           
         }
         usedWidthSum = usedWidthSum + width;
         column.drawnWidth = width;
