@@ -155,7 +155,7 @@
 .ui-grid-row:hover > [ui-grid-row] > .ui-grid-cell:hover .ui-grid-cell,
 .ui-grid-row:nth-child(odd):hover .ui-grid-cell,
 .ui-grid-row:nth-child(even):hover .ui-grid-cell {
-  background-color: #d5eaee;
+  background-color: #fffbef;
 }
 .ui-grid-no-row-overlay {
   position: absolute;
@@ -631,7 +631,7 @@ select.ui-grid-filter-select:hover {
 .ui-grid-row:hover > [ui-grid-row] > .ui-grid-cell:hover .ui-grid-cell,
 .ui-grid-row:nth-child(odd):hover .ui-grid-cell,
 .ui-grid-row:nth-child(even):hover .ui-grid-cell {
-  background-color: #d5eaee;
+  background-color: #fffbef;
 }
 .ui-grid-no-row-overlay {
   position: absolute;
@@ -2016,7 +2016,7 @@ select.ui-grid-filter-select:hover {
 .ui-grid-row:hover > [ui-grid-row] > .ui-grid-cell:hover .ui-grid-cell,
 .ui-grid-row:nth-child(odd):hover .ui-grid-cell,
 .ui-grid-row:nth-child(even):hover .ui-grid-cell {
-  background-color: #d5eaee;
+  background-color: #fffbef;
 }
 .ui-grid-no-row-overlay {
   position: absolute;
